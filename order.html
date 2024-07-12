@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Shop fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <div class="topdiv">
+      <h1>Shop Fusion</h1>
+      <div class="topsdiv">
+        <p class="topp"> <a href="index.html">Home</a></p>
+        <p class="topp"> <a href="collection.html">Collection</a></p>
+        <p class="topp"> <a href="contact.html">Contact Us</a></p>
+      </div>
+      <div class="topbar" onclick="o()">
+        <p class="fa-solid fa-bars"></p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="sidediv">
+      <p style="text-align:right;" onclick="c()">
+      <i class="fa-solid fa-xmark" class="sidemark"></i>
+      </p>
+      <div class="sidsdiv">
+      <p class="sidep"> <a href="index.html">Home</a></p>
+        <p class="sidep"> <a href="collection.html">Collection</a></p>
+        <p class="sidep"> <a href="contact.html">Contact Us</a></p>
+       </div>
+    </div>
+    
+    <div class="newaddress" onclick="ado()">
+      <h2>+ add newaddress</h2>
+   </div>
+   <div id="container">
+   <div class="scover"></div>
+   
+   <div class="addressfill">
+     <div class="addressfillm">
+       <textarea placeholder="Name" class="addressfilld" id="namein"></textarea><br>
+       <textarea placeholder="Phone no" class="addressfilld" id="phonein"></textarea><br>
+       <textarea placeholder="City" class="addressfilld" id="cityin"></textarea><br>
+       <textarea placeholder="Pincode" class="addressfilld" id="pinin"></textarea><br>
+       <textarea placeholder="plat no/house no " class="addressfilld" id="housein"></textarea><br>
+       <button class="adb" onclick="newd()">ADD</button>
+       <button class="clo" onclick="end()">Close</button>
+       
+       
+     </div>
+   </div>
+   
+   
+   </div>
+    
+
+
+    
+    
+    
+    <script src="index.js"></script>
+    </body>
+    </html>
